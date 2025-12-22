@@ -35,11 +35,11 @@ const FileUploader = ({ file, onFileSelect }: FileUploaderProps) => {
               <div className="flex items-center space-x-3">
                 <div>
                   <p className="text-sm font-medium text-gray-700 truncate max-w-xs">
-                                        {file.name}
-                                    </p>
-                                    <p className="text-sm text-gray-500">
-                                        {formatSize(file.size)}
-                                    </p>
+                      {file.name}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                      {formatSize(file.size)}
+                  </p>
                 </div>
               </div>
               <button className="p-2 cursor-pointer" onClick={(e) => {
